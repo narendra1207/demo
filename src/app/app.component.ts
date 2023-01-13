@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo_pro';
+
+rcvMsg:any;
+
+constructor(){
+
+}
+  sendMsg(val:any){
+this.rcvMsg=val
+  }
 }
